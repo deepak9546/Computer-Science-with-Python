@@ -5,5 +5,5 @@ Most of the repository holds the _notebooks_ consists of various programs.
 
 ---
 
-I've included the _executable notebooks_ i.e. in ```.ipynb``` format [here]('exercise/'). <br />
-Explore more [here]('exercise/').
+I've included the _executable notebooks_ i.e. in ```.ipynb``` format [here](https://github.com/ravi-prakash1907/Computer-Science-with-Python/tree/master/exercise). <br />
+Explore more [here](exercise/).
