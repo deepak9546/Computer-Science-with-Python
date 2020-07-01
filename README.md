@@ -1,7 +1,5 @@
 <!--
-
 # Computer Science with Python (XII)
-
 -->
 
 This is a repository, created for revising the basic concepts of Python from scratch. <br />
