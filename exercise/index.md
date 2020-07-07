@@ -435,8 +435,8 @@ import random as rand
 def roll_D(noOfSides = 6, noOfDice = 1):
     roll = 1
     while roll <= noOfDice:
-        rand.randint(1,noOfSides)
-        print(li[1])
+        outcome = rand.randint(1,noOfSides)
+        print(outcome)
         roll += 1
     print("That's all")
 ```
@@ -448,7 +448,7 @@ def roll_D(noOfSides = 6, noOfDice = 1):
 roll_D(6,3) # 3 dice with 6 faces, each
 ```
 
-    4
+    2
     4
     4
     That's all
@@ -463,7 +463,7 @@ roll_D(6,3) # 3 dice with 6 faces, each
 roll_D() # one die with 6 faces
 ```
 
-    5
+    6
     That's all
 
 
@@ -472,7 +472,7 @@ roll_D() # one die with 6 faces
 roll_D(8) # one die with 8 faces
 ```
 
-    7
+    1
     That's all
 
 
@@ -481,8 +481,8 @@ roll_D(8) # one die with 8 faces
 roll_D(noOfDice = 2) # 2 dice with 6 faces, each
 ```
 
-    1
-    6
+    3
+    5
     That's all
 
 
@@ -491,9 +491,9 @@ roll_D(noOfDice = 2) # 2 dice with 6 faces, each
 roll_D(7,3) # 3 dice with 7 faces, each
 ```
 
-    7
-    7
-    5
+    6
+    4
+    2
     That's all
 
 
@@ -562,6 +562,8 @@ def void(num):
 
 
 ```python
+num = 235
+
 res = void(num)
 if res == -1:
     print("Invalid input!!")
@@ -569,7 +571,21 @@ else:
     print("Calculated result: ",res)
 ```
 
-    Calculated result:  3394
+    Invalid input!!
+
+
+
+```python
+num = 2315
+
+res = void(num)
+if res == -1:
+    print("Invalid input!!")
+else:
+    print("Calculated result: ",res)
+```
+
+    Calculated result:  754
 
 
 <br /><br />
