@@ -384,17 +384,20 @@ caller()
 # if there are 2 or more variable with same name, (including Global and Local(s), both)
     # keyword 'global' is used to call the global variable
 
-name = "My name"
+name = "Myname"
 
 def caller():
     global name
-    #name = "Myname"  # this would change the global variable's value
+    name = "My name"  # this would change the global variable's value
     print(name," is not 'Myname'!!")
-    
+  
 caller()
+print(name)
+
 ```
 
     My name  is not 'Myname'!!
+    My name
 
 
 <br /><br />
@@ -576,7 +579,7 @@ else:
 
 ```python
 def isVowel(char):
-    vowels = ['a','e','i','o','u']
+    vowels = ['a','e','i','o','u','A','E','I','O','U']
     flag = False
     
     if char in vowels:
