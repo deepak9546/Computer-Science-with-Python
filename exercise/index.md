@@ -197,7 +197,9 @@ chkOdd(3)
 
 Alone, they don't play any majour role. But, the modules are necessary when we wish to use the _functions_ or any other defination decleared in it. Inthis way, a python module provides a **modularity**. <br /><br />
 
-A python module as also saved as a normal python program i.e. with the extention ``` .py ``` and are imported using ``` import ``` keyword.
+A python module as also saved as a normal python program i.e. with the extention ``` .py ``` and are imported using ``` import ``` keyword. <br /><br />
+
+the codes/modules present in current directory can be found [here](https://github.com/ravi-prakash1907/Computer-Science-with-Python/tree/master/exercise)
 
 <br /><br />
 
@@ -269,6 +271,7 @@ welcome.msg(welcome.name)
 
     Hello Ravi!!
 
+_This module can be found [here](https://github.com/ravi-prakash1907/Computer-Science-with-Python/blob/master/dependancies/modules/welcome.py)_
 
 ---
 <br /><br />
