@@ -12,6 +12,7 @@
 >    * Importing a complete module
 >    * Importing few function or constants from a module
 > **3. Flow of Execution**
+> **4. User Input**
 
 ---
 
@@ -639,9 +640,32 @@ print(isVowel('i'))
     True
 
 
+### Mersenne NUmber
+
+
+```python
+# declearing fun.
+def mersenne(num):
+    return 2**num - 1
+
+# input the value for number
+n = input("Enter the number: ")
+```
+
+    Enter the number: 5
+
+
+
+```python
+# the result
+print("Mersenne number is: ",mersenne(int(n)))
+```
+
+    Mersene number is:  31
+
+
 <br />
 
 ---
 
-<br /><br />
-
+<br />
