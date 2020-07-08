@@ -16,6 +16,7 @@
 > **3. Flow of Execution**
 >  
 > **4. User Input**
+  
 
 ---
 
@@ -643,7 +644,7 @@ print(isVowel('i'))
     True
 
 
-### Mersenne NUmber
+### Mersenne Number
 
 
 ```python
