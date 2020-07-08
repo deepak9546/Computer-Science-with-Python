@@ -1,4 +1,24 @@
+# Intro
+
+#### Here, we'll discussed about: <br />
+
+> **1. Function in Python**
+>    * Self Defined vs Buitl-in functions
+>    * Declearing and Calling a function
+>    * Default Parameters
+>    * Local & Global scope of variables
+> **2. Modules in Python**
+>    * Creating a Python Module
+>    * Importing a complete module
+>    * Importing few function or constants from a module
+> **3. Flow of Execution**
+
+---
+
+<br /><br />
+
 # Basics of Functions in Python
+
 
 ### 1. Functions & Their Parts
 
@@ -622,4 +642,6 @@ print(isVowel('i'))
 <br />
 
 ---
-<br /><br /><br />
+
+<br /><br />
+
