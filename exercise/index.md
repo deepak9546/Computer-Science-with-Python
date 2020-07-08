@@ -7,11 +7,14 @@
 >    * Declearing and Calling a function
 >    * Default Parameters
 >    * Local & Global scope of variables
+>  
 > **2. Modules in Python**
 >    * Creating a Python Module
 >    * Importing a complete module
 >    * Importing few function or constants from a module
+>  
 > **3. Flow of Execution**
+>  
 > **4. User Input**
 
 ---
